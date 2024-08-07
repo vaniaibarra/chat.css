@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main-container{
+    display: flex;
+}
+.lista-contactos{
+    background-color: white;
+    width: 20vw;
+    min-height: 100vh;
+    min-width: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+.img-grande{
+    display: flex;
+    background-color: #e8ebe4;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight:lighter
+}
+.img-grande img{
+    width: 30%;
+}
+.texto-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.texto-pequeño{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.usuario{
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-bottom: 1px solid #cdcdcd;
+}
+.avatar-usuario img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.icon-usuario{
+    display: flex;
+    justify-content: end;
+    color: #bec1bb;
+}
+.icono-chat{
+    padding-right: 0.2rem;
+}
+.datos-usuario{
+    width: 100%;
+    padding: 0 0.5rem;
+}
+.status-usuario{
+    font-size: x-small;
+    color: #bec1bb;
+}
+.btn-chat{
+    background-color: #a491d2;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+    border: 0;
+}
+.div-btn-chat{
+    padding: 1.5rem;
+    border-bottom: 1px solid #cdcdcd;
+}
+.avatar-contactos img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.chat-contactos{
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border-bottom: 1px solid #cdcdcd;
+    height: 7.8vh;
+}
+.datos-contactos{
+    padding-left: 0.5rem;
+}
+.estado-contactos{
+    font-size: small;
+    padding-top: 0.2rem;
+}
